@@ -1,7 +1,5 @@
 import * as starWarsApi from '../apis/star-wars.api'
-
 import { action, observable } from 'mobx';
-
 import { Film } from '../interfaces/star-wars.interfaces';
 
 export default class HomeStore {
